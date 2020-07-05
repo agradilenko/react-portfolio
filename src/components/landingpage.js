@@ -24,7 +24,7 @@ class Landing extends Component {
                   <p style={{fontSize: "36px", fontWeight: "bold"}}> React app written with modern Javascript.</p>
                 </div>
               </header>
-              <p style={{fontSize: "24px", fontWeight: "italic", paddingTop: "10px"}}> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
+              <p style={{fontSize: "24px", fontWeight: "italic", paddingTop: "10px"}}> Welcome to my website. Please feel free to read more <Link to="/aboutme">about me</Link>,
                 or you can check out my {' '}
                 <Link to="/resume">resume</Link>, {' '}
                 <Link to="/projects">projects</Link>, {' '}
