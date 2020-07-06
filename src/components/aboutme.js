@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div>
         <Grid>
-          <Cell col={4}>
+          <Cell className="aboutmeInfo" col={4} phone={8} tablet={8}>
             <img
               src="https://sun9-36.userapi.com/c638219/v638219870/4fa05/LF6dRL0BAzk.jpg"
               alt="avatar"
