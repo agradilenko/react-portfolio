@@ -14,6 +14,7 @@ class Project extends Component {
     return (
         <Cell col={4}>
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Link href = {this.props.demoUrl}>
             <CardTitle
               style={{
                 color: "black",
@@ -24,6 +25,7 @@ class Project extends Component {
             >
               {this.props.projectName}
             </CardTitle>
+            </Link>
             <CardText>{this.props.projectDescription}</CardText>
             <CardActions border>
               <Link href = {this.props.gitUrl}>
