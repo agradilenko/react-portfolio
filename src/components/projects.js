@@ -40,6 +40,13 @@ class Projects extends Component {
               gitUrl="https://github.com/agradilenko/redux-todos"
               demoUrl="https://agradilenko.github.io/redux-todos/"
             />
+            <Project
+              backgroundUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7-ky5IQQ8k7M9GMN1Lb31TKbDH593uCgsUg&usqp=CAU"
+              projectName="Custom useWindowSize"
+              projectDescription="Custom useWindowSize hook"
+              gitUrl="https://github.com/agradilenko/usewindowsize"
+              demoUrl="https://agradilenko.github.io/usewindowsize/"
+            />
             {/*</div>*/}
           </Grid>
         </div>

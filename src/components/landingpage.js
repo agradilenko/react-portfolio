@@ -7,8 +7,12 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
-          <Cell col={4} phone={8} tablet={8} style={{ border: "solid 1px" +
-              " rgba(160,160,160,0.3)" }}>
+          <Cell
+            col={4}
+            phone={8}
+            tablet={8}
+            style={{ border: "solid 1px rgba(160,160,160,0.3)" }}
+          >
             <Link to="/resume">
               <img
                 src="https://sun9-36.userapi.com/c638219/v638219870/4fa05/LF6dRL0BAzk.jpg"
