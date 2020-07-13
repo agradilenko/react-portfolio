@@ -47,7 +47,6 @@ class Projects extends Component {
               gitUrl="https://github.com/agradilenko/usewindowsize"
               demoUrl="https://agradilenko.github.io/usewindowsize/"
             />
-            {/*</div>*/}
           </Grid>
         </div>
       </div>
